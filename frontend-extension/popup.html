@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body { width: 350px; padding: 20px; font-family: Arial; }
+    textarea { width: 100%; padding: 8px; margin-bottom: 10px; }
+    button { width: 100%; padding: 10px; background: #4a90e2; color: white; border: none; }
+    .high { color: red; font-weight: bold; }
+    .medium { color: orange; font-weight: bold; }
+    .low { color: green; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <h3>🔍 SmartConsent</h3>
+  <textarea id="clause" rows="4" placeholder="Paste Terms of Service clause..."></textarea>
+  <button id="analyze">Analyze</button>
+  <div id="result" style="margin-top: 15px;"></div>
+  <script src="popup.js"></script>
+</body>
+</html>
